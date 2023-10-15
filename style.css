@@ -1,0 +1,59 @@
+.gameBoard {
+    display: flex;
+}
+
+#board { 
+    margin-right: 100px;
+}
+
+table td {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+
+#extraRoom {
+    position: relative;
+}
+
+.fixedPiece {
+    position: relative;
+}
+
+.movablePiece {
+    position: relative;
+}
+
+.playerIcon {
+    position: absolute;
+}
+
+.treasure {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+#player0 {
+    left: 2px;
+    top: 2px;
+}
+
+#player1 {
+    right: 2px;
+    top: 2px;
+}
+
+#player2 {
+    left: 2px;
+    bottom: 6px;
+}
+
+#player3 {
+    right: 2px;
+    bottom: 6px;
+}
+
+.playerPanel img {
+    width: 35px;
+}
